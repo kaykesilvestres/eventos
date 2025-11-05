@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script src="./eventos.js"></script>
+
+
+
+
+ <button onclick="mudartexto()">clique aqui e mude o texto</button>
+<p id="texto">kayke</p>
+
+<div id="caixa" onmouseover="entrar()" onmouseout="sair()">passe o mouse e veja a cor de fundo mudar</div>
+<input type="text" id="nome" placeholder="digite seu nome">
+<p id="resposta"></p>
+
+
+
+<select id="cor" onchange="mudarCor()">
+<option value="">Escolha uma cor</option>
+<option value="red">Vermelho</option>
+<option value="blue">Azul</option>
+<option value="yellow">Amarelo</option>
+</select>
+
+
+
+
+
+
+
+</body>
+</html>
